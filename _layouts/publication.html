@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="index">
+
+{% include header.html %}
+
+<!--Main Content Area-->
+<main id="content">
+    <section id="publications" class="introduction text-center scrollto">
+
+        <div class="row clearfix">
+
+            <div class="section-heading">
+                <h3>PUBLICATIONS</h3>
+                <h2 class="section-title">Our Scientific Contributions</h2>
+            </div>
+            <div ="pub-items">
+                {{ content }}
+            </div>
+        </div>
+    </section>
+</main>
+
+{% include footer.html %}
+
+</body>
+
+</html>
+
+
